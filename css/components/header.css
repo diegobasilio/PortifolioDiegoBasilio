@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+}
+
+header .header-left {
+    max-width: 62rem;
+    flex: 1;
+}
+
+header .header-left p {
+    margin-top: 2rem;
+    max-width: 50rem;
+    text-align: justify;
+}
+
+header .header-right .header-image {
+    position: relative;
+    line-height: 0;
+    display: block;   
+}
+
+header .header-right .header-image .diego {
+    border-radius: 0.5rem;
+    min-width: 25rem;
+    max-width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    header .header-left p {
+        margin: 2rem auto 4rem;
+    }
+}
