@@ -1,26 +1,26 @@
-.about{
+.about {
     display: flex;
     justify-content: space-between;
     gap: 4rem;
     scroll-margin-top: 20rem;
 }
 
-.about .about-description{
-    flex: 1;
-    max-width: 66rem;
-    text-align: justify;
-}
-
-.about .about-description h3{
+.about .about-right h3{
+    align-items: center;
     text-align: center;
 }
 
-@media screen and (max-width: 768px){
-    .about{
-        flex-direction: column;
-        align-items: center;
-    }
-    .about .about-description{
-        text-align: center;
-    }
+.about .about-right{
+    flex: 1;
+    max-width: 66rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+}
+  .about .about-right {
+    text-align: center;
+}
 }
