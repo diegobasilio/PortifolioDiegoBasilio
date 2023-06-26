@@ -13,6 +13,7 @@ html {
 body {
   font-size: 1.6rem;
   margin-top: 15rem;
+  background-color: var(--gray);
 }
 
 ul {
@@ -27,7 +28,7 @@ a {
 h1 {
   font-size: 6.4rem;
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--white);
 }
 
 .secondary-title {
@@ -36,11 +37,24 @@ h1 {
   color: var(--primary-color);
 }
 
+.secondary-title2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
 .tertiary-title {
   font-size: 3.2rem;
   font-weight: 500;
   line-height: 4.5rem;
   color: var(--secondary-color);
+}
+
+.tertiary-title2{
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 4.5rem;
+  color: var(--white);
 }
 
 p,
@@ -54,6 +68,11 @@ p:not(:last-of-type),
 .p:not(:last-of-type) {
   margin-bottom: 2rem;
 }
+
+.p-white{
+  color: var(--white);
+}
+
 
 .max-width {
   width: 100%;
